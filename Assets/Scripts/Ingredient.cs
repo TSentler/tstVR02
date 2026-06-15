@@ -7,11 +7,12 @@ public class Ingredient : MonoBehaviour
 }
 public enum IngredientType
 {
-    Water ,
-    Bone ,
+    Water,
+    Bone,
     Eye ,
     Mushroom ,
    Watermelon ,
    Cloud ,
-   Carrot 
+   Carrot,
+   Cat
 }

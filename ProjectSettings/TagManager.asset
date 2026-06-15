@@ -5,7 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - ' R3ed'
-  - ' Redbutton'
+  - RedButton
   layers:
   - Default
   - TransparentFX
