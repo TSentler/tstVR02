@@ -17,14 +17,14 @@ public class PotionSystem : MonoBehaviour
             ingredients.Contains(IngredientType.Water) &&
             ingredients.Count == 2)
         {
-            Debug.Log("Potion yud gotovo!");
+            Debug.Log("Object for soup gotovo !");
             spawner.Spawn(Carrot);
         }
         else if (ingredients.Contains(IngredientType.Carrot) &&
             ingredients.Contains(IngredientType.Cloud) &&
             ingredients.Count == 2)
         {
-            Debug.Log("Potion Cat for you gotovo!");
+            Debug.Log("Object Jumping gotovo!");
             spawner.Spawn(Cat);
         }
         cauldron.ClearCauldron();
