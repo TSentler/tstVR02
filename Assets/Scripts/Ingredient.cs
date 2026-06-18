@@ -9,7 +9,7 @@ public enum IngredientType
 {
     Water,
     Bone,
-    Eye ,
+    Spider ,
     Mushroom ,
    Watermelon ,
    Cloud ,

@@ -17,16 +17,22 @@ public class PotionSystem : MonoBehaviour
             ingredients.Contains(IngredientType.Water) &&
             ingredients.Count == 2)
         {
-            Debug.Log("Object for soup gotovo !");
+            Debug.Log(" Зелье помутнения разума готово !");
             spawner.Spawn(Carrot);
         }
         else if (ingredients.Contains(IngredientType.Carrot) &&
             ingredients.Contains(IngredientType.Cloud) &&
             ingredients.Count == 2)
         {
-            Debug.Log("Object Jumping gotovo!");
+            Debug.Log("Обьект  прыгающий кот готов !");
             spawner.Spawn(Cat);
         }
-        cauldron.ClearCauldron();
+        else if (ingredients.Contains(IngredientType.Mushroom) &&
+           ingredients.Contains(IngredientType.Bone) &&
+           ingredients.Count == 2)
+        {
+            Debug.Log("Обьект паук!");
+            spawner.Spawn(Spider);
+            cauldron.ClearCauldron();
     }
 }
